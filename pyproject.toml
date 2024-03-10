@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "drf-crud"
+name = "drf_crud"
 version = "1.0"
 description = "Mastering the django-rest-framework and integration with PostgreSQL"
 authors = ["MagicSky <david.dev100@outlook.com>"]
