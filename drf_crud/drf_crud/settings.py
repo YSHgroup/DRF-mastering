@@ -62,6 +62,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'rest_framework',
+                'drf_crud'
             ],
         },
     },
@@ -75,8 +77,12 @@ WSGI_APPLICATION = 'drf_crud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'simple_crud',
+        'USER': 'postgre',
+        'PASSWORD': '2218',
+        'HOST': 'localhost',
+        'PORT': '5432'
     }
 }
 
