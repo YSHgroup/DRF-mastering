@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'drf_crud',
+    'simple_crud',
     'corsheaders' # CORS
 ]
 
@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'drf_crud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'simple_crud',
-        'USER': 'postgre',
+        'NAME': 'drf_crud',
+        'USER': 'postgres',
         'PASSWORD': '2218',
         'HOST': 'localhost',
         'PORT': '5432'
