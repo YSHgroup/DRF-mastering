@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drf_crud"
+version = "1.0"
+description = "Mastering the django-rest-framework and integration with PostgreSQL"
+authors = ["MagicSky <david.dev100@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.9"
+django-cors-headers = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
